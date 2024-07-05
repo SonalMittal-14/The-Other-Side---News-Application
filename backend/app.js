@@ -4,7 +4,7 @@ const cookieParser = require("cookie-parser")
 const app = express()
 
 app.use(cors({
-    origin: 'http://localhost:3000',
+    origin: 'https://the-other-side-news-application-1e2e.vercel.app',
     credentials: true
 }));
 
