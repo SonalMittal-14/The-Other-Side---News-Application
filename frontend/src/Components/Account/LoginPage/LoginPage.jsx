@@ -38,7 +38,7 @@ const LoginPage = () => {
           email: "",
           password: ""
         });
-        navigate('/account');
+        navigate('/register');
       } else if (response.status === 202) {
         alert(response.data.message);
         setLoginPayload((prevPayload) => ({
